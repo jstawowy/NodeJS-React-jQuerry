@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#lewy{
+   background-color:#d3d3d3;
+    width: 25%;
+   height: 1000px;
+   float:left;
+}
+#prawy{
+    width: 75%;
+    height: 1000px;
+    float:right;
+    position:relative;
+}
+.klocek{
+    width:110px;
+    height: 100px;
+    float:left;
+    background-image: url("../gfx/hex.png");
+    position: absolute;  
+}
+.strzalka{
+    width: 110px;
+    height: 100px;
+}
+.numer{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size:30px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
